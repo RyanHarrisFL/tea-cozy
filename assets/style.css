@@ -1,8 +1,111 @@
+/* Universal Styles */
+
 body {
-    background-color: red;
+    background-color: black;
+    font-family: Helvetica, Arial, sans-serif;
+    color: seashell;
+    font-size: 22px;
+    opacity: 0.9;
 }
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+h2 {
+    font-size: 1.5em;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+}
+
+h3 {
+    font-size: 1.60875rem;
+    padding: 10px;
+    margin: 0;
+    justify-content: center;
+    text-align: center;
+}
+
+h4 {
+    padding: 10px;
+    margin: 0;
+    justify-content: center;
+    text-align: center;
+}
+
+/* HEADER */
+
+header {
+    height: 69px;
+    width: 100%;
+    border-bottom: solid seashell 1px;
+    position: fixed;
+    z-index: 1;
+    background-color: black;
+    align-items: center;
+}
+
+.logo {
+    height: 50px;
+    padding-left: 10px;
+    justify-content: flex-start;
+}
+
+nav {
+    text-align: right;
+    flex-grow: 1;
+  }
+
+nav li {
+    display: inline-block;
+    padding: 20px 10px;
+}
+
+/* MAIN SECTION */
 
 .jumbotron {
     background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 1200px;
+    padding-top: 69px;
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+    margin: auto;
+}
+
+.banner {
+    background-color: black;
+    align-items: center;
+    width: 100%;
+}
+
+/* TEA OF THE MONTH SECTION */
+
+
+
+.col {
+    align-content: center;
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+
+}
+
+.col img {
+    height: 200px;
+    width: 300px;
+}
+
+/* FOOTER SECTION */
+
+#directions {
+    background-image: ("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+    background-repeat: no-repeat;
     height: 500px;
 }
