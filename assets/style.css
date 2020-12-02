@@ -104,7 +104,7 @@ nav li {
     display: block;
 }
 
-/* LOCATIONSSECTION */
+/* LOCATIONS SECTION */
 
   
 #directions {
@@ -130,4 +130,12 @@ nav li {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+/* FOOTER SECTION */
+
+#trademark {
+    display: inline-flex;
+    align-items: flex-start;
+
 }
