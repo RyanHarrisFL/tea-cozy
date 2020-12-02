@@ -6,4 +6,4 @@
 * HTML
 * CSS (Flexbox) 
 
-**Purpose of Project:** This was created for practice to create layouts using flexbox. 
+**Purpose of Project:** This was created for practice to create layouts using flexbox. This was a Codeacademy project. 
